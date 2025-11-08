@@ -1,0 +1,31 @@
+body {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 70px;
+}
+.jumbotron {
+  background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?fit=crop&w=1200&q=80') center center/cover;
+  color: #fff;
+  margin-bottom: 0;
+}
+.jumbotron .container {
+  background: rgba(0,0,0,0.5);
+  padding: 2.5rem;
+  border-radius: 10px;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.card-title {
+  font-size: 1.2rem;
+}
+.rounded-circle {
+  border: 3px solid #007bff;
+}
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .jumbotron .container {
+    padding: 1.2rem;
+  }
+}
